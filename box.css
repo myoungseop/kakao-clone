@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body, html{
+    height: 1500px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.pink-box{
+    width: 100%;
+    height: 200px;
+    background-color: pink;
+    position: fixed;
+    z-index: 1;
+}
+.blue-box{
+    width: 70%;
+    height: 1300px;
+    margin-top: 200px;
+    background-color: blue;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.yellow-box{
+    width: 30%;
+    height: 1300px;
+    float: left;
+    margin-top: 200px;
+    background-color: yellow;
+    box-sizing: border-box;
+    border: 5px solid gray;
+}
+.green-box{
+    /* 고정
+    width: 150px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top: 150px;
+    right: calc(25% - 75px);
+    z-index: 3; */
+
+    /* 반응 */
+    width: 12%;
+    height: 60%;
+    background-color: green;
+    position: absolute;
+    top: 145px;
+    right: 30%;
+    z-index: 3;
+    margin-right: -6%;
+}
+.text{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
