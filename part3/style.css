@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: 5s scale_Rotate infinite ease-in-out;
+}
+@keyframes scale_Rotate{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: rotate(1turn) scale(.5, .5);
+        color: white;
+    }
+    100%{
+        transform: none;
+        color: blue;
+    }
+}
