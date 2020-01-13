@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- fontawesome 사용을 위한 CDN추가 -->
+    <script src="https://kit.fontawesome.com/8eaff53ae8.js" crossorigin="anonymous"></script>
+    <title>Friends | Kakao Clone</title>
+</head>
+<body>
+    <!-- 
+        ( __ ) underbar * 2는 자식을 표현할때 사용한다
+        ( - ) 가운데 bar 는 두 언어를 합쳐표현할 때 사용한다
+     -->
+
+    <!-- 모바일 상단 상태바 전체 시작-->
+    <div class="status-bar">
+        <!-- 왼쪽 시간 표시부분 -->
+        <div class="status-bar__child">
+            <span class="status-bar__clock">13:54</span>
+        </div>
+        <!-- 우측 시계/볼륨/와이파이/배터리양 표시 부분 -->
+        <div class="status-bar-child">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
+    <!-- 모바일 상단 상태바 전체 끝-->
+    
+    <!-- header 시작 -->
+    <header class="header">
+
+        <!-- 왼쪽 글씨부분 영역 -->
+        <div class="header__header-child">
+            <h1 class="header__title">Friends</h1>
+        </div>
+
+        <!-- 우측 아이콘 영역 -->
+        <!-- 아이콘 전체를 묶는 영역을 잡은 후 각각 영역을 잡고 아이콘을 삽입-->
+        <div class="header__header-child">
+            <span class="header__icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-cog"></i>
+            </span>
+        </div>
+    </header>
+    <!-- header 끝 -->
+
+    <main class="friends">
+        <!-- 나의 프로필 -->
+        <header class="friends__header">
+            <div class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="/img/me.jpg" alt="프로필 사진" class="g-avatar friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Myoung Seop
+                        </span>
+                        <span class="friend__status">
+                            하쿠나 마타타
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- 플러스 친구 -->
+        <div class="friends__plus">
+            <h5 class="friends__title">Plus Friend</h5>
+            <div class="friends__friend friend">
+                <div class="friend__column">
+                    <img src="/img/me.jpg" alt="프로필 사진" class="g-avatar friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Plus Friend
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 친구목록 -->
+        <ul class="friends__list">
+            <h5 class="friends__title">Friends 14</h5>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="/img/me.jpg" alt="프로필 사진" class="g-avatar friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Myoung Seop
+                        </span>
+                        <span class="friend__status">
+                            하쿠나 마타타
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                        <span class="sing-title">지독하게 - FTLSLAND (FTLSLAND)</span>
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <!-- 하단 공통 nav 영역 시작 -->
+    <nav class="nav">
+        <!-- 전체 영역 ul -->
+        <ul class="nav__list">
+            <!-- 사용자 아이콘 및 링크 -->
+            <li class="nav__list-item">
+                <a href="friends.html" class="nav__list-link">
+                    <i class="fas fa-user"></i>
+                </a>
+            </li>
+            <!-- 채팅 아이콘 및 링크 -->
+            <li class="nav__list-item">
+                <a href="../index.html" class="nav__list-link">
+                    <i class="far fa-comment"></i>
+                </a>
+            </li>
+            <!-- 돋보기 아이콘 및 링크 -->
+            <li class="nav__list-item">
+                <a href="find.html" class="nav__list-link">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+            <!--  more 아이콘 및 링크 -->
+            <li class="nav__list-item">
+                <a href="more.html" class="nav__list-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- 하단 공통 nav 영역 끝 -->
+</body>
+</html>
