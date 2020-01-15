@@ -1,0 +1,122 @@
+@charset "utf-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", sans-serif !important;
+}
+.content_wrap{
+    max-width: 800px;
+    height: auto;
+    background-color: #000;
+    margin: 0 auto;
+    padding: 10px;
+}
+.first{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 15px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.first_img{
+    width: 50%;
+    height: 50%;
+    padding-top: 30px;
+}
+.first_title{
+    text-align: left;
+}
+.first_text_area{
+    text-align: left;
+    overflow: hidden;
+    padding: 30px;
+}
+.first-text_1, .first-text_2{
+    color: #8f8f8f;
+}
+.first-text_2{
+    margin-bottom: 20px;
+}
+.price{
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+}
+.star{
+    float: right;
+}
+.star-icon{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.star-icon li{
+    float: left;
+    font-size: 20px;
+    padding: 1.5px;
+    color: #febe50;
+}
+.star-icon li:nth-child(5){
+    color: #d6dee5;
+}
+.star-icon li:nth-child(6){
+    color: #a3a3a3;
+}
+/* first End */
+
+.second{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 15px 15px;
+    text-align: center;
+}
+.second_img_area{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 123px;
+    position: relative;
+}
+.profile{
+    background: url(./sakura.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+.sec_profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    border: 5px solid #fff;
+    line-height: 260px;
+    position: absolute;
+    top: 220px;
+    left: 40%;
+}
+.sec_img{
+    width: 80%;
+}
+.btn_area{
+    margin-top: 30px;
+}
+.btn{
+    border: 0;
+    width: 25%;
+    height: 60px;
+    margin: 20px 30px 40px 30px;
+    background: #eaecff;
+    color: #6c75ff;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #6b75ff;
+    color: #fff;
+}
