@@ -1,0 +1,131 @@
+@charset "utf-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", sans-serif !important;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    background: #f8f7ff;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.inner{
+    max-width: 500px;
+    height: 820px;
+    margin: 0 auto;
+    border: 15px solid #fff;
+    box-shadow: 20px 30px 5px 5px #eee;
+    border-radius: 20px;
+}
+.back-color{
+    background-color: #f8f8f8;
+    padding: 30px;
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 60px 0;
+}
+.email , .password{
+    display: block;
+    border: 0;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    width: 100%;
+    height: 60px;
+    border-radius: 13px;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+.pass_search{
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.pass_search > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #e2283e;
+}
+
+input[type=checkbox]{
+    display:none;
+}
+input[type=checkbox] + label{ 
+    display: inline-block; 
+    cursor: pointer; 
+    line-height: 23px; 
+    padding-left: 22px; 
+    background: url('check_before.jpg') left/18px no-repeat;
+    color: #7d7d7d;
+}
+input[type=checkbox]:checked + label{
+    background-image: url('check_after.jpg'); 
+}
+.signin{
+    display: block;
+    border: 0;
+    background-color: #e2283e;
+    color: #fff;
+    border: 1px solid #f8f8f8;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 40px 0;
+    box-sizing: border-box;
+}
+.or{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.sns{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 50px 0;
+    overflow: hidden;
+}
+.sns_btn{
+    float: left;
+    width: 45%;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    background: #475a95;
+}
+.sns_btn a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+.face{
+    margin-right: 5%;
+}
+.twi{
+    background: #5da1f2;
+    float: right;
+}
+.sns_icon{
+    margin-right: 2%;
+}
+.sign_up_txt, .forgot_txt{
+    display: block;
+    color: #7d7d7d;
+}
+.sign_up_txt > a , .forgot_txt > a{
+    text-decoration: none;
+    color: #e2283e;
+    font-weight: bold;
+}
