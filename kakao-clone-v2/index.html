@@ -39,7 +39,7 @@
             <h1 class="header__title">Chats</h1>
         </div>
 
-        <!-- 우측 아이콘 영역 -->
+        <!-- 우측 아이콘(검색/말풍선/설정) 영역 -->
         <!-- 아이콘 전체를 묶는 영역을 잡은 후 각각 영역을 잡고 아이콘을 삽입-->
         <div class="header__header-child">
             <span class="header__icon">
@@ -60,25 +60,27 @@
         <ul class="chats__list">
             <!-- chat라는 새로운 name사용 /chats 와 구분하여 사용 -->
             <li class="chats__chat chat">
-                <div class="chat__column">
-                    <!-- 이미지 클래스에 글로벌에서 사용할 수 있는 g-avatar 클래스 사용 -->
-                    <img src="./img/me.jpg" alt="아바타이미지" class="chat_avatar g-avatar">
-                    <!-- 이름과 채팅내용 표시영역 -->
-                    <div class="chat__content">
-                        <!-- 이름 부 -->
-                        <span class="chat__username">
-                            MyoungSeop
-                        </span>
-                        <!-- 채팅 부 -->
-                        <span class="chat_preview">
-                            Hello World!
-                        </span>
+                <a href="./page/chat.html">
+                    <div class="chat__column">
+                        <!-- 이미지 클래스에 글로벌에서 사용할 수 있는 g-avatar 클래스 사용 -->
+                        <img src="./img/me.jpg" alt="아바타이미지" class="chat_avatar g-avatar">
+                        <!-- 이름과 채팅내용 표시영역 -->
+                        <div class="chat__content">
+                            <!-- 이름 부 -->
+                            <span class="chat__username">
+                                MyoungSeop
+                            </span>
+                            <!-- 채팅 부 -->
+                            <span class="chat_preview">
+                                Hello World!
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <!-- 보낸날짜 표시영역 -->
-                <div class="chat__column">
-                    <div class="chat__timestamp">Yesterday</div>
-                </div>
+                    <!-- 보낸날짜 표시영역 -->
+                    <div class="chat__column">
+                        <div class="chat__timestamp">Yesterday</div>
+                    </div>
+                </a>
             </li>
         </ul>
     </main>
