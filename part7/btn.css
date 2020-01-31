@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+input[type=button]{
+    display:none;
+}
+input[type=button] + label{ 
+    display: inline-block; 
+    cursor: pointer; 
+    line-height: 23px; 
+    padding-left: 22px; 
+    background: url('/part6/check_before.jpg') left/18px no-repeat;
+    color: #7d7d7d;
+}
+input[type=button]:active + label{
+    background-image: url('/part6/check_after.jpg'); 
+}
