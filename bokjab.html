@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // var setMenu = ['상덕버거','중덕버거','하덕버거','콜라','사이다'];
+        // var price = new Array(5);
+        // var minSum = 0;
+        // var minDrk = 0;
+
+        // for(var i = 0 ; i < setMenu.length; i++){
+        //     price[i] = parseInt(prompt(setMenu[i] + "의 가격을 입력하세요"));
+        // }
+
+        // if(price[0] < price[1] && price[0] < price[2]){
+        //     minSum = price[0];    
+        // }
+        // else if(price[1] < price[0] && price[1] < price[2]){
+        //     minSum = price[1];
+        // }
+        // else{
+        //     minSum = price[2];
+        // }
+
+        // if(price[3] < price[4]){
+        //     minDrk = price[3];
+        // }
+        // else{
+        //     minDrk = price[4];
+        // }
+
+        // minSum = Math.min(price[0],price[1],price[2]);
+        // minDrk = Math.min(price[3],price[4]);
+        
+        // console.log((minSum + minDrk) - 50);
+
+
+
+        var student = ['원섭','세희','상근','숭이','강수'];
+        var sum = 0;
+
+        for(var i = 0; i < student.length ; i++){
+            var input = parseInt(prompt(student[i]+"의 점수 입력 : ")); // 문자열
+            if(input < 40){
+                input = 40;
+                sum += input; // 문자열을 인트형으로 형변환 하여 sum에 더함
+            }
+            else{
+                sum += input; // 문자열을 인트형으로 형변환 하여 sum에 더함
+            }
+        }
+        console.log(sum / student.length);
+
+
+        // var a = new Array(5);
+        // var sum = 0;
+        // var avg = 0;
+        // var n = 0;
+
+        // for(var i = 0 ; i < 5 ; i++){
+        //     n = parseInt(prompt("점수를 입력하세요"));
+        //     if( n/10 > 4){
+        //         a[i] = n;
+        //     }
+        //     else{
+        //         a[i] = 40;
+        //     }
+        //     sum += a[i];
+        // }
+        // avg = sum / 5;
+
+        // console.log(avg);
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
